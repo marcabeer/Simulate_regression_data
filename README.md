@@ -1,6 +1,7 @@
 # Simulating data for simple linear regression
-Marc A. Beer
-=======================
+
+<font size="5">Marc A. Beer</font>
+
 <br> <font size="5"> Simple linear regression is useful for
 understanding the relationship between an unbounded continuous response
 variable and one or more explanatory variables. Simple relationships are
