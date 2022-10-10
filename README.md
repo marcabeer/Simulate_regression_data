@@ -1,6 +1,6 @@
 # Simulating data for simple linear regression
 
-<font size="5">Marc A. Beer</font>
+<font size="7">Marc A. Beer</font>
 
 <br> <font size="5"> Simple linear regression is useful for
 understanding the relationship between an unbounded continuous response
