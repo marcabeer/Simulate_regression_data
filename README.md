@@ -56,7 +56,7 @@ ggplot(data.frame(x=x), aes(x = x)) +
 panel.background = element_blank(), axis.line = element_line(colour = "black"))
 ```
 
-<img src="simulate_simple_linear_regression_data_files/figure-gfm/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="simulate_simple_linear_regression_data_files/figure-gfm/p1_runif_draw.png" style="display: block; margin: auto;" />
 
 <font size="4"> Note that we could have simulated X values using
 different distributions, and it may be informative to play around with
@@ -118,7 +118,7 @@ ggplot()+
   stat_cor(data=df_x_ye, mapping=aes(x=x, y=y_e), method = "pearson")
 ```
 
-<img src="simulate_simple_linear_regression_data_files/figure-gfm/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
+<img src="simulate_simple_linear_regression_data_files/figure-gfm/p1_ye_values.png" style="display: block; margin: auto;" />
 
 <font size="4"> If you’ve carried out regression analysis on real data,
 you might think these data are a bit odd. The correlation between X and
@@ -183,7 +183,7 @@ y_plot<-ggplot()+
 cowplot::plot_grid(ye_plot, y_plot, nrow=2, ncol=1, vjust=-0.25)
 ```
 
-<img src="simulate_simple_linear_regression_data_files/figure-gfm/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
+<img src="simulate_simple_linear_regression_data_files/figure-gfm/p1_ye_yo_values.png" style="display: block; margin: auto;" />
 <font size="4"> The top plot shows the relationship between expected
 values of Y and X, which was plotted previously. The bottom plot shows
 our new *observed* values of Y. </font> <br>
@@ -351,7 +351,7 @@ ggplot()+
   theme_bw()
 ```
 
-<img src="simulate_simple_linear_regression_data_files/figure-gfm/unnamed-chunk-14-1.png" style="display: block; margin: auto;" />
+<img src="simulate_simple_linear_regression_data_files/figure-gfm/p1_ye_fitted_values.png" style="display: block; margin: auto;" />
 
 <font size="4"> The red line depicts a 1:1 relationship. The points
 likely depart somewhat from this line because the Beta coefficient and
